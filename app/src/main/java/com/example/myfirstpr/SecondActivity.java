@@ -38,7 +38,7 @@ public class SecondActivity extends AppCompatActivity {
 
                     //передадим результат в третье Активити
                     Intent intent = new Intent(SecondActivity.this,ThirdActivity.class);
-                    intent.putExtra("data", num1 + num2 + "");
+                    intent.putExtra("data", num1 + num2 + "   ");
                     startActivity(intent);
 
 
